@@ -1,0 +1,137 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fcdeef;
+}
+
+header #menu{
+    align-items: center;
+    background-color: #fc65ba;
+    display: flex;
+    justify-content: space-around;
+}
+
+header #menu a{
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+header #menu a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+.formulario,
+.formulario form{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 70vw;
+}
+
+.formulario h1{
+    border-bottom: 1px solid #000000;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.formulario form label{
+    text-align: left;
+}
+
+.formulario form input{
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.formulario form .emLinha{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario form select{
+    height: 30px;
+    width: 20vw;
+}
+
+.formulario form .emLinha .turno{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+}
+
+.formulario form .turno div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.formulario form .botoes{
+    margin: 0 auto;
+}
+
+.formulario form .botoes input{
+    background-color: #fc65ba;
+    border: none;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.formulario form .botoes input:hover{
+    box-shadow: 0px 0px 15px black;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #fc65ba;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+footer .texto{
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+}
+
+footer .redesSociais p{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer .redesSociais a{
+    color: whitesmoke;
+    font-size: 30px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+footer .redesSociais a:hover{
+    color: black;
+    text-shadow: 0px 0px 10px whitesmoke;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Ficha</title>
+
+    <link rel="stylesheet" href="/CSS/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a79202eb1e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav id="menu">
+            <a href="#">Página Principal</a>
+            <a href="#">Nossa História</a>
+            <a href="#">Nossos Cursos</a>
+            <a href="#">Infraestrutura</a>
+            <a href="#">Cadastre-se!</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <section class="formulario">
+        <h1>Cadastro do Aluno</h1>
+        <form name = "form" action=" " method = "post">
+            <label for="form_name">
+                Nome Completo:
+            </label>
+            <input type="text" name = "form_name" value="Nome Completo">
+            
+            <div class="emLinha">
+                <div>
+                    <label for="form_rg">
+                        Identidade:
+                    </label>
+                    <input type= "number" name = "form_rg" value="9999999999">
+                </div>
+        
+                <div>
+                    <label for="form_cpf">
+                        CPF:
+                    </label>
+                    <input type= "number" name = "form_cpf" value="99999999999">
+                </div>
+        
+                <div>
+                    <label for="form_nascimento">
+                        Nascimento:
+                    </label>
+                    <input type="date" name = "form_nascimento">
+                </div>
+        
+                <div>
+                    <label for="form_idade">
+                        Idade:
+                    </label>
+                    <input type="number" name = "form_idade" value="99">
+                </div>
+            </div>
+            
+            <div class="emLinha">
+                <div>
+                    <label for="form_endereco">
+                        Endereço:
+                    </label>
+                    <input type="text" name = "form_endereco" size="60">
+                </div>
+        
+                <div>
+                    <label for="form_complemento">
+                        Complemento:
+                    </label>
+                    <input type="text" name = "form_complemento" size="60">
+                </div>
+            </div>
+
+            <div class="emLinha">
+                <div>
+                    <label for="form_cep">
+                        CEP:
+                    </label>
+                    <input type="number" name = "form_cep">
+                </div>
+        
+                <div>
+                    <label for="form_estado">
+                        Estado:
+                    </label>
+                    <select name="form_estado">
+                        <option value=" ">Selecione um Estado</option>
+                    </select>
+                </div>
+        
+                <div>
+                    <label for="form_cidade">
+                        Cidade:
+                    </label>
+                    <select name="form_cidade">
+                        <option value=" ">Selecione uma Cidade</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="emLinha">
+                <div>
+                    <label for="form_curso">
+                        Escolha seu curso:
+                    </label>
+                    <select name="form_curso">
+                        <option value=" ">Selecione um curso</option>
+                        <option value=" ">Análise e Desenvolvimento de Sistemas</option>
+                        <option value=" ">Ciências da Computação</option>
+                        <option value=" ">Engenharia da Computação</option>
+                        <option value=" ">Sistemas de Informação</option>
+                    </select>
+                </div>
+        
+                <div class="turno">
+                    <label for="form_horario">
+                        Turno de preferência:
+                    </label>
+                    <div>
+                        <input type="radio" value="Matutino"> <label>Matutino</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="Vespertino"> <label>Vespertino</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="Noturno"> <label>Noturno</label>
+                    </div>
+                </div>
+            </div>
+            <div class="botoes">
+                <input type="reset" value="Limpar formulário">
+                <input type="submit" value="Enviar!">
+            </div>
+        </form>
+    </section>   
+</body>
+<footer>
+    <div class="texto">
+        <p>Universidade Bons Estudos</p>
+        <p> Endereço: Av. da Nota Alta, N. 42. Salvador, BA.</p>
+        <p>Teleatendimento: (71) 9999-9999</p>
+        <p>ube@email.com.br</p>
+    </div>
+
+    <div class = "redesSociais">
+        <p>Nossas Redes Sociais:</p>
+        <a href="#">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+    </div>
+</footer>
+</html>
