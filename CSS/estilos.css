@@ -50,7 +50,10 @@ header #menu a:hover{
     text-align: left;
 }
 
-.formulario form input{
+.formulario form input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="select"]{
     height: 30px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -82,7 +85,7 @@ header #menu a:hover{
 }
 
 .formulario form .botoes{
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .formulario form .botoes input{
